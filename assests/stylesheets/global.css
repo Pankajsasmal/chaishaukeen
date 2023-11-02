@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.brand-logo{
+    width: 120px;
+    height: 120px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+
+/* About us*/
+.about-us-section {
+    padding: 20px 0;
+}
+
+.about-us-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about-us-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-us-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Photo gallery */
+
+.photo-gallery-section {
+    padding: 20px 0;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.photo-gallery img:hover {
+    opacity: 0.8;
+}
